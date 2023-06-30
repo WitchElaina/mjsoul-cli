@@ -1,0 +1,30 @@
+{
+  "name": "mjsoul-cli",
+  "version": "1.0.0",
+  "description": "A command line client for mjsoul based on takayama-lily/mjsoul",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "update:liqi": "tsc && node dist/utils/updateLiqi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WitchElaina/mjsoul-cli.git"
+  },
+  "author": "witchelaina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WitchElaina/mjsoul-cli/issues"
+  },
+  "homepage": "https://github.com/WitchElaina/mjsoul-cli#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mjsoul": "^2.3.0"
+  },
+  "type": "module"
+}
